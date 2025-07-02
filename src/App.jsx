@@ -56,7 +56,7 @@ function App() {
 
       {/* Main Title */}
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">
-        BEST IPHONE APPS 2025
+        BEST EDITING APPS 2025
       </h1>
 
       {/* Preview Gallery */}
@@ -284,66 +284,7 @@ function App() {
       <div>
         <div className="flex flex-col md:flex-row items-center justify-between py-8">
           <div className="text-2xl font-bold underline">
-            #4 Grow your Linkedin : Lek AI
-            <span className="ml-4 text-yellow-500 text-3xl">★★★★★</span>
-          </div>
-          <button className="mt-4 md:mt-0 px-6 py-2 rounded-full border border-gray-500 text-lg">
-            Get app
-          </button>
-        </div>
-
-        <div className="flex justify-center relative mb-12">
-          <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
-            <div className="flex w-fit p-4 bg-gradient-to-r from-slate-50 via-blue-100 to-emerald-50 border border-black/10 shadow-xl rounded-2xl gap-8 backdrop-blur-md">
-              {[
-                { src: lek1, alt: "Feature 1" },
-                { src: lek2, alt: "Feature 2" },
-                { src: lek3, alt: "Feature 3" },
-                { src: lek4, alt: "Feature 4" },
-                { src: lek5, alt: "Feature 5" },
-                { src: lek6, alt: "Feature 6" },
-                { src: lek7, alt: "Feature 7" },
-                // Add more images here as needed
-              ].map((img, idx) => (
-                <div
-                  key={img.src + idx}
-                  className="transition-transform hover:scale-105 hover:shadow-2xl duration-200 w-40 md:w-52 h-72 md:h-80 flex items-center justify-center rounded-xl overflow-hidden border border-black/20 shadow-lg bg-white  "
-                >
-                  <img
-                    src={img.src}
-                    alt={img.alt}
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        <p>
-          Lek is an AI-powered LinkedIn post writing assistant designed to help
-          entrepreneurs, freelancers, founders, professionals, and startups
-          build personal brands and achieve growth. Whether you're attracting
-          talent, generating leads, looking for a job or establishing thought
-          leadership, Lek empowers you to create engaging LinkedIn content
-          easily.
-        </p>
-
-        <div className="flex justify-center my-12">
-          <img
-            src={apple_dl}
-            alt="Download on App Store"
-            className="w-48 h-16 object-cover"
-          />
-        </div>
-
-        <hr className="my-12 border-gray-300" />
-      </div>
-
-      <div>
-        <div className="flex flex-col md:flex-row items-center justify-between py-8">
-          <div className="text-2xl font-bold underline">
-            #5 Lono : collage & reels maker
+            #4 Lono : collage & reels maker
             <span className="ml-4 text-yellow-500 text-3xl">★★★★★</span>
           </div>
           <button className="mt-4 md:mt-0 px-6 py-2 rounded-full border border-gray-500 text-lg">
@@ -385,63 +326,6 @@ function App() {
           ready to post. An AI-Based photo and video editor application that
           allows you to create Aesthetic filters & Vintage effects as like
           vintage photography for social media with minimal effort.
-        </p>
-
-        <div className="flex justify-center my-12">
-          <img
-            src={apple_dl}
-            alt="Download on App Store"
-            className="w-48 h-16 object-cover"
-          />
-        </div>
-
-        <hr className="my-12 border-gray-300" />
-      </div>
-
-      <div>
-        <div className="flex flex-col md:flex-row items-center justify-between py-8">
-          <div className="text-2xl font-bold underline">
-            #6 Tawk2 : Relationship cards
-            <span className="ml-4 text-yellow-500 text-3xl">★★★★★</span>
-          </div>
-          <button className="mt-4 md:mt-0 px-6 py-2 rounded-full border border-gray-500 text-lg">
-            Get app
-          </button>
-        </div>
-
-        <div className="flex justify-center relative mb-12">
-          <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
-            <div className="flex w-fit p-4 bg-gradient-to-r from-slate-50 via-blue-100 to-emerald-50 border border-black/10 shadow-xl rounded-2xl gap-8 backdrop-blur-md">
-              {[
-                { src: tawk1, alt: "Feature 1" },
-                { src: tawk2, alt: "Feature 2" },
-                { src: tawk3, alt: "Feature 3" },
-                { src: tawk4, alt: "Feature 4" },
-                { src: tawk5, alt: "Feature 5" },
-                // Add more images here as needed
-              ].map((img, idx) => (
-                <div
-                  key={img.src + idx}
-                  className="transition-transform hover:scale-105 hover:shadow-2xl duration-200 w-40 md:w-52 h-72 md:h-80 flex items-center justify-center rounded-xl overflow-hidden border border-black/20 shadow-lg bg-white  "
-                >
-                  <img
-                    src={img.src}
-                    alt={img.alt}
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        <p>
-          Looking to spark deeper connections with your partner or add fun to
-          your game nights? Dive into a world of deep questions, partner
-          questions, and exciting games that bring you closer. Whether you're
-          exploring your love language, tackling relationship questions, or
-          engaging in naughty games, this app offers the ultimate experience for
-          couples, best friends, and beyond.
         </p>
 
         <div className="flex justify-center my-12">
