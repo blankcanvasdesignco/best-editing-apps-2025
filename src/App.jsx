@@ -6,8 +6,8 @@ import screen2 from "./assets/screen2.png";
 import screen3 from "./assets/screen3.png";
 import screen4 from "./assets/screen4.png";
 import screen5 from "./assets/screen5.png";
-import screen6 from "./assets/screen6.png";
-import screen7 from "./assets/screen7.png";
+// import screen6 from "./assets/screen6.png";
+// import screen7 from "./assets/screen7.png";
 import panoslice1 from "./assets/panoslice/panoslice1.webp";
 import panoslice2 from "./assets/panoslice/panoslice2.webp";
 import panoslice3 from "./assets/panoslice/panoslice3.webp";
@@ -98,18 +98,18 @@ function App() {
                 {
                   src: screen5,
                   alt: "Feature 5",
-                  link: "https://apps.apple.com/app/parent-101-parenting-tips/id6737198424",
+                  link: "https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680",
                 },
-                {
+                {/* {
                   src: screen6,
                   alt: "Feature 6",
-                  link: "https://apps.apple.com/app/tawk2-relationship-cards/id6738306118",
+                  link: "https://play.google.com/store/apps/details?id=com.muralgridforinstagram.squarecrop&pcampaignid=web_share",
                 },
                 {
                   src: screen7,
                   alt: "Feature 7",
-                  link: "https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680",
-                },
+                  link: "https://play.google.com/store/apps/details?id=com.panoslice.panoslicepro&pcampaignid=web_share",
+                }, */}
                 // Add more images here as needed
               ].map((img, idx) => (
                 <a
