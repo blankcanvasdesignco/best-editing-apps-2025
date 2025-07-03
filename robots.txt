@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://besteditingapp.com/sitemap.xml
